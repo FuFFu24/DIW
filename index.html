@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Orden Caballeresca</title>
+    <!-- Enlaces a los archivos de estilo de Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Enlace al archivo de estilo personalizado (si es necesario) -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Orden Caballeresca</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Historia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Actividades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Miembros
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Ingresar</a>
+                        <a class="dropdown-item" href="#">Registrarse</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Carousel/Slide -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/slide1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/slide2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <!-- Agregar más elementos según sea necesario -->
+        </div>
+    </div>
+
+    <!-- Sección de historia -->
+    <div class="container mt-4">
+        <h2>Historia de la Orden</h2>
+        <p>Texto descriptivo sobre la historia de la Orden...</p>
+    </div>
+
+    <!-- Acordeón de Bootstrap para actividades -->
+    <div class="container mt-4">
+        <h2>Actividades</h2>
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            Actividad 1
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        Contenido de la actividad 1...
+                    </div>
+                </div>
+            </div>
+            <!-- Agregar más elementos según sea necesario -->
+        </div>
+    </div>
+
+    <!-- Video de Bootstrap -->
+    <div class="container mt-4">
+        <h2>Video Institucional</h2>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TU3y6I66bT4"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!-- Cards de Bootstrap -->
+    <div class="container mt-4">
+        <h2>Noticias</h2>
+        <div class="card-deck">
+            <div class="card">
+                <img src="img/noticia1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Noticia 1</h5>
+                    <p class="card-text">Breve descripción de la noticia 1...</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/noticia2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Noticia 2</h5>
+                    <p class="card-text">Breve descripción de la noticia 2...</p>
+                </div>
+            </div>
+            <!-- Agregar más cards según sea necesario -->
+        </div>
+    </div>
+
+    <!-- Jumbotron de Bootstrap para la página de contacto -->
+    <div class="jumbotron jumbotron-fluid mt-4">
+        <div class="container">
+            <h1 class="display-4">Contacto</h1>
+            <p class="lead">Complete el formulario a continuación para ponerse en contacto con nosotros.</p>
+            <!-- Agregar el formulario de contacto aquí -->
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-3">
+        <p>© 2023 Orden Caballeresca</p>
+    </footer>
+
+    <!-- Enlaces a los archivos de script de Bootstrap y jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
