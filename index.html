@@ -7,14 +7,14 @@
     <title>Orden de la Jarretera</title>
     <link rel="icon" href="IMG/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
 
 <body>
 
     <!-- Barra de navegación -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Orden de la Jarretera</a>
+        <a class="navbar-brand" href="index.html"><img src="IMG/logo.jpg" alt="Home" width="80" height="80"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -23,13 +23,16 @@
             <ul class="navbar-nav">
                 <!-- Agregado: Separadores y estilos -->
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Historia</a>
+                    <a class="nav-link" href="historia.html">Historia</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Actividades</a>
+                    <a class="nav-link" href="actividades.html">Actividades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="noticias.html">Noticias</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contacto</a>
@@ -40,8 +43,8 @@
                         Miembros
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Ingresar</a>
-                        <a class="dropdown-item" href="#">Registrarse</a>
+                        <a class="dropdown-item" href="login.html">Ingresar</a>
+                        <a class="dropdown-item" href="register.html">Registrarse</a>
                     </div>
                 </li>
             </ul>
@@ -76,7 +79,8 @@
     <!-- Sección de historia -->
     <div class="container mt-4">
         <h2>Historia de la Orden</h2>
-        <p class="text-justify">La Orden de la Jarretera es la más antigua y más importante del Reino Unido. Establecida
+        <p class="text-justify">La Orden de la Jarretera es la más antigua y más importante del Reino Unido.
+            Establecida
             por el Rey Eduardo III de Inglaterra en 1348 para reconocer el valor y la lealtad, la Jarretera inglesa y
             el Toisón de Oro español son las dos condecoraciones caballerescas más importantes y apreciadas de la
             historia europea.</p>
@@ -129,7 +133,7 @@
         <div class="embed-responsive embed-responsive-16by9">
             <div class="embed-responsive-item" id="youtube-player"></div>
             <!-- Script movido a una etiqueta script externa (mejora mantenimiento) -->
-            <script src="youtube-script.js"></script>
+            <script src="JS/youtube-script.js"></script>
         </div>
     </div>
 
