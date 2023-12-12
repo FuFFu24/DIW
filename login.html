@@ -13,9 +13,14 @@
 <body>
 
     <!-- Página de Inicio de Sesión -->
-    <div class="container">
+    <div class="container d-flex align-items-center justify-content-center" style="height: 100vh;">
         <form>
-            <h2>Iniciar Sesión</h2>
+            <div class="text-center mb-4">
+                <a class="navbar-brand" href="index.html">
+                    <img src="IMG/logo.jpg" alt="Home" width="120" height="120">
+                </a>
+                <h2>Iniciar Sesión</h2>
+            </div>
             <div class="form-group">
                 <label for="loginEmail">Correo Electrónico:</label>
                 <input type="email" class="form-control" id="loginEmail" placeholder="Ingrese su correo electrónico">
@@ -27,6 +32,7 @@
             <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
         </form>
     </div>
+
 
     <!-- Enlaces a los archivos de script de Bootstrap y jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

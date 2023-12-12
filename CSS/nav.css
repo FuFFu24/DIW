@@ -25,6 +25,7 @@ body {
   background-size: 100%;
   border-color: var(--black);
   color: var(--black);
+  padding-top: 100px;
   font-family: "Raleway", Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -51,6 +52,10 @@ body {
   margin-bottom: 20px;
   background-color: var(--white);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-jumbotron {
+  padding: 0 60px;
 }
 
 .container h2 {
@@ -111,6 +116,30 @@ body {
 .card:hover .card-text {
   color: var(--white);
   transition: background-color 0.5s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Jumbotron de Bootstrap para la página de contacto */
+.jumbotron {
+  background-color: var(--brand-blue-light-2);
+  transition: background-color 0.5s ease-in-out;
+}
+
+.jumbotron h1,
+.jumbotron p,
+.jumbotron label {
+  color: var(--white);
+  transition: color 0.3s ease-in-out;
+}
+
+.btn-submit {
+  color: var(--brand-blue-light-2);
+  background-color: var(--white);
+  transition: background-color 0.5s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn-submit:hover {
+  color: var(--brand-blue-light-2);
+  background-color: var(--white);
 }
 
 /* Footer */
