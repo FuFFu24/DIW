@@ -96,6 +96,7 @@ body {
 .btn-card:hover,
 .btn-buscar:hover {
   color: var(--white);
+  background-color: var(--brand-blue-light-1);
 }
 
 /* Video de Bootstrap */
@@ -151,8 +152,8 @@ body {
 }
 
 .btn-submit:hover {
-  color: var(--brand-blue-light-2);
-  background-color: var(--white);
+  color: var(--white);
+  background-color: var(--brand-blue-light-1);
 }
 
 /* Footer */

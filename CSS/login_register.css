@@ -58,6 +58,19 @@ body {
   transition: border-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
+.btn-card,
+.btn-buscar {
+  color: var(--white);
+  background-color: var(--brand-blue-light-2);
+  border-style: none;
+}
+
+.btn-card:hover,
+.btn-buscar:hover {
+  color: var(--white);
+  background-color: var(--brand-blue-light-1);
+}
+
 /* Estilos para los formularios de inicio de sesión y registro */
 .container {
   display: flex;
